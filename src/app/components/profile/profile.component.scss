@@ -7,3 +7,43 @@
     width: 100%;
   }
 }
+
+/* profile.component.css */
+
+/* Social Media Icon Color Customization */
+.linkedin-icon {
+  color: #0077b5; /* LinkedIn Blue */
+}
+
+.github-icon {
+  color: #333; /* GitHub Black */
+}
+
+.blogger-icon {
+  color: #f57d00; /* Blogger Orange */
+}
+
+.behance-icon {
+  color: #1769ff; /* Behance Blue */
+}
+
+/* Hover Effects */
+.linkedin-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge icon */
+  opacity: 0.8; /* Slight opacity change */
+}
+
+.github-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge icon */
+  opacity: 0.8; /* Slight opacity change */
+}
+
+.blogger-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge icon */
+  opacity: 0.8; /* Slight opacity change */
+}
+
+.behance-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge icon */
+  opacity: 0.8; /* Slight opacity change */
+}
