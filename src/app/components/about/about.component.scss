@@ -20,3 +20,33 @@
   margin: 0.5rem 0;
 }
 
+/* Hover Effect for About Section Cards */
+.about-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);  /* Lift the card slightly */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Add a soft shadow */
+}
+
+.about-card i {
+  transition: color 0.3s ease;  /* Smooth transition for icon color change */
+}
+
+.about-card:hover i {
+  color: #000;  /* Change icon color on hover */
+}
+
+.about-card .card-body {
+  transition: background-color 0.3s ease;
+}
+
+.about-card:hover .card-body {
+  background-color: #f8f9fa;  /* Light background change on hover */
+}
+
+/* Hover effect for card text */
+.about-card:hover .card-text {
+  color: #333;  /* Darken text slightly on hover */
+}

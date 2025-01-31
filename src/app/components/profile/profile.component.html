@@ -8,7 +8,7 @@
   <!-- Profile Text & Buttons -->
   <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
     <p class="fs-5">Hello, I'm</p>
-    <h1 class="fw-bold">W.A.D.K.R.Wasala Arachchi</h1>
+    <h1 class="fw-bold text-primary">W.A.D.K.R.Wasala Arachchi</h1>
     <p class="subtitle fs-4">Undergraduate Student</p>
 
     <div class="d-flex justify-content-center mt-4">
@@ -22,10 +22,10 @@
 
     <!-- Social Media Icons -->
     <div class="d-flex justify-content-center mt-3">
-      <i class="fab fa-linkedin fa-3x icon mx-2 pointer linkedin-icon"></i>
-      <i class="fab fa-github fa-3x icon mx-2 pointer github-icon"></i>
-      <i class="fab fa-blogger fa-3x icon mx-2 pointer blogger-icon"></i>
-      <i class="fab fa-behance fa-3x icon mx-2 pointer behance-icon"></i>
+      <i class="fab fa-linkedin fa-3x icon mx-2 pointer linkedin-icon" (click)="goToLinkedin()"></i>
+      <i class="fab fa-github fa-3x icon mx-2 pointer github-icon" (click)="goToGithub()"></i>
+      <i class="fab fa-blogger fa-3x icon mx-2 pointer blogger-icon" (click)="goToBlogger()"></i>
+      <i class="fab fa-behance fa-3x icon mx-2 pointer behance-icon" (click)="goToBehance()"></i>
     </div>
   </div>
 </div>
