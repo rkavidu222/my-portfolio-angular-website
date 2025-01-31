@@ -23,13 +23,15 @@ export class ExperienceComponent {
     {name: "Spring Boot", src: "./assets/technologies/spring-boot.png"},
     {name: "MySQL", src: "./assets/technologies/mysql.png"},
     {name: "PostgreSQL", src: "./assets/technologies/postgresql.png"},
-    {name: "Javascript", src: "./assets/technologies/js.png"},
     {name: "Typescript", src: "./assets/technologies/ts.png"},
     {name: "Angular", src: "./assets/technologies/angular.png"},
     {name: "HTML", src: "./assets/technologies/html.png"},
     {name: "CSS", src: "./assets/technologies/css.png"},
     {name: "Bootstrap", src: "./assets/technologies/bootstrap.png"},
     {name: "GIT", src: "./assets/technologies/git.png"},
+    {name: "Figma", src: "./assets/technologies/figma.png"},
+    {name: "MySQL Workbench", src: "./assets/technologies/workbench.png"},
+    {name: "GIT", src: "./assets/technologies/netbeans.jfif"},
   ];
 
   // needed to create an infinite-like scroll effect
