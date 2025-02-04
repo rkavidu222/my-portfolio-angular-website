@@ -65,6 +65,13 @@ export class ProjectsComponent {
       technologies: ['Figma', 'Behance'],
       src: './assets/projects/cake.jpg',
       link: 'https://www.behance.net/gallery/217744757/Cake-Ordering-App',
+    },
+    {
+      name: 'Figma UI for Tea Powder Oderig Website',
+      description: 'This is userfriendly websie design for ordering tea powder',
+      technologies: ['Figma', 'Behance'],
+      src: './assets/projects/tea.jpg',
+      link: 'https://www.behance.net/gallery/218339089/Tea-powder-ordering-website-UI',
     }
   ];
 }
