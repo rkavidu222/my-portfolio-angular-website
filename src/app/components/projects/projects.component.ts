@@ -72,6 +72,13 @@ export class ProjectsComponent {
       technologies: ['Figma', 'Behance'],
       src: './assets/projects/tea.jpg',
       link: 'https://www.behance.net/gallery/218339089/Tea-powder-ordering-website-UI',
+    },
+    {
+      name: 'Figma UI for shoue order app',
+      description: 'mobile app design',
+      technologies: ['Figma', 'Behance'],
+      src: './assets/projects/shoe.jpeg',
+      link: 'https://www.behance.net/gallery/219171963/Shoes-ordering-mobile-app-design',
     }
   ];
 }
